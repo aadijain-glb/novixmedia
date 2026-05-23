@@ -13,7 +13,7 @@ export const AGENCY = {
 
 export const STATS = [
   { label: "Worked With Influencers", value: 200, suffix: "+" },
-  { label: "Campaign Reach", value: 100, suffix: "+" },
+  { label: "Campaign Executed", value: 100, suffix: "+" },
   { label: "Brand Collaborations", value: 50, suffix: "+" },
   { label: "Client Retention", value: 85, suffix: "%" },
 ];
