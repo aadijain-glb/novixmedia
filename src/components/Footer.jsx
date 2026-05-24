@@ -29,8 +29,8 @@ export default function Footer() {
           <FooterCol title="Connect" links={[
             { label: "Book a Call", href: "#contact" },
             { label: "Email", href: `mailto:${AGENCY.email}` },
-            { label: "WhatsApp", href: `https://wa.me/${AGENCY.whatsapp.replace(/\D/g, "")}` },
-          ]} />
+            AGENCY.whatsapp ? { label: "WhatsApp", href: `https://wa.me/${AGENCY.whatsapp.replace(/\D/g, "")}` } : null,
+          ].filter(Boolean)} />
         </div>
 
         <div className="select-none pointer-events-none mb-12 overflow-hidden">

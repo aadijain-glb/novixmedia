@@ -1,13 +1,11 @@
 export const AGENCY = {
   name: "Novix Media",
   tagline: "Influencer Marketing Agency",
-  email: "novixmedia25@gmail.com",
-  phone: "+91 9068456915",
-  whatsapp: "+91 9068456915",
+  email: "contact@novixmedia.com",
   address: "Delhi NCR",
   location: "Delhi NCR",
   socials: {
-    instagram: "https://instagram.com/novixmedia25/",
+    instagram: "https://www.instagram.com/novixmedia_/",
   },
 };
 
