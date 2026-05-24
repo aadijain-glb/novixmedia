@@ -6,6 +6,7 @@ export const AGENCY = {
   location: "Delhi NCR",
   socials: {
     instagram: "https://www.instagram.com/novixmedia_/",
+    linkedin: "https://www.linkedin.com/in/novix-media-9785b5411/",
   },
 };
 

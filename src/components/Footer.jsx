@@ -1,4 +1,4 @@
-import { Instagram } from "./Icons";
+import { Instagram, Linkedin } from "./Icons";
 import { AGENCY } from "../lib/constants";
 
 export default function Footer() {
@@ -46,7 +46,8 @@ export default function Footer() {
           <div className="flex items-center gap-3">
             {[
               { Icon: Instagram, href: AGENCY.socials.instagram, label: "instagram" },
-            ].map(({ Icon, href, label }) => (
+              AGENCY.socials.linkedin ? { Icon: Linkedin, href: AGENCY.socials.linkedin, label: "linkedin" } : null,
+            ].filter(Boolean).map(({ Icon, href, label }) => (
               <a key={label} href={href} target="_blank" rel="noopener noreferrer"
                 aria-label={label} data-testid={`footer-social-${label}`}
                 className="w-9 h-9 rounded-full glass flex items-center justify-center text-white/60 hover:text-neon transition">
