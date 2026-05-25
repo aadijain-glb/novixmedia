@@ -27,7 +27,7 @@ export default function Services() {
           </h2>
         </motion.div>
 
-        <div className="mt-16 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
+        <div className="mt-16 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
           {SERVICES.map((s, i) => {
             const Icon = ICONS[i % ICONS.length];
             return (
@@ -36,7 +36,7 @@ export default function Services() {
                 initial={{ opacity: 0, y: 24 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, margin: "-60px" }}
-                transition={{ duration: 0.55, delay: (i % 4) * 0.08 }}
+                transition={{ duration: 0.55, delay: (i % 3) * 0.08 }}
                 data-testid={`service-card-${s.code}`}
                 className="group relative glass rounded-2xl p-7 neon-border-hover overflow-hidden h-full flex flex-col"
               >

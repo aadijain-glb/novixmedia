@@ -4,6 +4,7 @@ import { toast } from "sonner";
 import { ArrowUpRight, Mail, Phone, MapPin, MessageSquare } from "lucide-react";
 import emailjs from "@emailjs/browser";
 import { AGENCY, EMAILJS_CONFIG } from "../lib/constants";
+import { Instagram } from "./Icons";
 
 export default function Contact() {
   const formRef = useRef();
@@ -141,6 +142,25 @@ export default function Contact() {
                   <span className="text-sm font-semibold">{AGENCY.address || AGENCY.location}</span>
                 </div>
               </div>
+
+              {AGENCY.socials?.instagram && (
+                <div className="flex items-center gap-4 text-white/80">
+                  <div className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center text-neon border border-white/10">
+                    <Instagram size={16} />
+                  </div>
+                  <div>
+                    <p className="text-[10px] uppercase tracking-widest font-bold text-white/40">Instagram</p>
+                    <a
+                      href={AGENCY.socials.instagram}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-sm font-semibold hover:text-neon transition-colors"
+                    >
+                      Visit Instagram
+                    </a>
+                  </div>
+                </div>
+              )}
             </div>
           </div>
 
@@ -153,6 +173,12 @@ export default function Contact() {
             onSubmit={onSubmit}
             className="lg:col-span-7 glass p-5 sm:p-7 md:p-10 rounded-2xl space-y-6"
           >
+            <div className="space-y-1">
+              <h3 className="font-heading font-black text-xl sm:text-2xl tracking-tight text-white">
+                Fill your details for an appointment
+              </h3>
+            </div>
+
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
               <label className="block space-y-2">
                 <span className="text-[10px] uppercase tracking-widest font-bold text-white/50">Your Name *</span>

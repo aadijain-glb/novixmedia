@@ -105,8 +105,8 @@ export default function Hero() {
           transition={{ delay: 1.1, duration: 0.7 }}
           className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4"
         >
-          <a href="#contact" data-testid="hero-cta-book-call" className="btn-neon group">
-            Book a Call
+          <a href="#contact" data-testid="hero-cta-book-appointment" className="btn-neon group">
+            Book an Appointment
             <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform" />
           </a>
         </motion.div>

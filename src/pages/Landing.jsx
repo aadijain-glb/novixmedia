@@ -3,7 +3,9 @@ import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
 import About from "../components/About";
 import Services from "../components/Services";
-// import Creators from "../components/Creators";
+import Creators from "../components/Creators";
+import CaseStudies from "../components/CaseStudies";
+import Testimonials from "../components/Testimonials";
 import Brands from "../components/Brands";
 import WhyChooseUs from "../components/WhyChooseUs";
 import Contact from "../components/Contact";
@@ -17,9 +19,11 @@ export default function Landing() {
       <Hero />
       <About />
       <Services />
-      {/* <Creators /> */}
+      <Creators />
       <Brands />
+      <CaseStudies />
       <WhyChooseUs />
+      <Testimonials />
       <Contact />
       <Footer />
     </main>

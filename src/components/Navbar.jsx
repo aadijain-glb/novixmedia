@@ -31,11 +31,10 @@ export default function Navbar() {
     >
       <div className="max-w-7xl mx-auto px-6 md:px-12">
         <div
-          className={`flex items-center justify-between rounded-full px-5 md:px-7 py-3 transition-all duration-500 ${
-            scrolled
+          className={`flex items-center justify-between rounded-full px-5 md:px-7 py-3 transition-all duration-500 ${scrolled
               ? "bg-ink-900/70 backdrop-blur-2xl border border-white/10 shadow-[0_8px_40px_rgba(0,0,0,0.4)]"
               : "bg-transparent border border-transparent"
-          }`}
+            }`}
         >
           <a href="#hero" data-testid="navbar-logo" className="flex items-center gap-2 group">
             <img src="/logo.jpg" alt="Logo" className="w-8 h-8 rounded-md object-cover border border-white/10 shadow-[0_0_20px_rgba(0,240,255,0.3)]" />
@@ -59,8 +58,8 @@ export default function Navbar() {
           </nav>
 
           <div className="flex items-center gap-3">
-            <a href="#contact" data-testid="navbar-cta-book-call" className="hidden md:inline-flex btn-neon !px-5 !py-2.5 !text-xs">
-              Book a Call
+            <a href="#contact" data-testid="navbar-cta-book-appointment" className="hidden md:inline-flex btn-neon !px-5 !py-2.5 !text-xs">
+              Book an Appointment
             </a>
             <button
               type="button"
@@ -89,7 +88,7 @@ export default function Navbar() {
                   {l.label}
                 </a>
               ))}
-              <a href="#contact" onClick={() => setOpen(false)} className="btn-neon mt-2 !w-full">Book a Call</a>
+              <a href="#contact" onClick={() => setOpen(false)} className="btn-neon mt-2 !w-full">Book an Appointment</a>
             </motion.div>
           )}
         </AnimatePresence>

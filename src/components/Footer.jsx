@@ -27,7 +27,7 @@ export default function Footer() {
             { label: "Testimonials", href: "#testimonials" },
           ]} />
           <FooterCol title="Connect" links={[
-            { label: "Book a Call", href: "#contact" },
+            { label: "Book an Appointment", href: "#contact" },
             { label: "Email", href: `mailto:${AGENCY.email}` },
             AGENCY.whatsapp ? { label: "WhatsApp", href: `https://wa.me/${AGENCY.whatsapp.replace(/\D/g, "")}` } : null,
           ].filter(Boolean)} />
