@@ -21,11 +21,6 @@ export default function Footer() {
             { label: "Services", href: "#services" },
             { label: "Why Novix Media", href: "#why" },
           ]} />
-          <FooterCol title="Work" links={[
-            { label: "Creators", href: "#creators" },
-            { label: "Case Studies", href: "#case-studies" },
-            { label: "Testimonials", href: "#testimonials" },
-          ]} />
           <FooterCol title="Connect" links={[
             { label: "Book an Appointment", href: "#contact" },
             { label: "Email", href: `mailto:${AGENCY.email}` },
@@ -63,7 +58,7 @@ export default function Footer() {
 
 function FooterCol({ title, links }) {
   return (
-    <div className="md:col-span-2">
+    <div className="md:col-span-3">
       <h4 className="text-[11px] uppercase tracking-[0.2em] font-bold text-white/40 mb-4">{title}</h4>
       <ul className="space-y-2.5">
         {links.map((l) => (
