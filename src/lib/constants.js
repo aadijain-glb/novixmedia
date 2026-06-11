@@ -1,7 +1,7 @@
 export const AGENCY = {
   name: "Novix Media",
   tagline: "Influencer Marketing Agency",
-  email: "contact@novixmedia.com",
+  email: "contact@novixmedia.in",
   address: "Delhi NCR",
   location: "Delhi NCR",
   socials: {
