@@ -36,7 +36,7 @@ export const CREATORS = [
 ];
 
 export const BRANDS = [
-  "Fello", "Gullak", "Siply", "Junio", "My Mighty Theory"
+  "Fello", "Gullak", "Siply", "Junio", "My Mighty Theory", "Princess by Renee", "Be Clinical"
 ];
 
 export const CASE_STUDIES = [

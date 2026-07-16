@@ -23,7 +23,7 @@ export default function Brands() {
           </h2>
         </div>
         <p className="text-white/45 text-sm max-w-sm">
-          50+ collaborations across finance, lifestyle, fashion, beauty, ed-tech, trading, and infotainment.
+          50+ collaborations across finance, lifestyle, fashion, beauty, clinical skincare, ed-tech, trading, and infotainment.
         </p>
       </motion.div>
 
