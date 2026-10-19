@@ -1,10 +1,14 @@
 import { motion } from "framer-motion";
 import Stat from "./Stat";
 import { STATS } from "../lib/constants";
+import { Zap } from "lucide-react";
 
 export default function About() {
   return (
-    <section id="about" data-testid="about-section" className="relative py-24 md:py-32">
+    <section id="about" data-testid="about-section" className="relative py-24 md:py-32 overflow-hidden">
+      {/* Decorative ambient blob */}
+      <div className="absolute top-20 right-0 w-[500px] h-[500px] bg-neon/5 rounded-full blur-[140px] pointer-events-none" />
+
       <div className="max-w-7xl mx-auto px-6 md:px-12">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-start">
           <motion.div
@@ -40,13 +44,32 @@ export default function About() {
               architected around measurable lift, transparent attribution and creators we'd
               personally invest in.
             </p>
+
+            {/* Badge pills with glow effect */}
             <div className="flex flex-wrap gap-3 pt-4">
               {["First-party Attribution", "Brand-Safe Network", "Performance Guarantee"].map((b) => (
-                <span key={b} className="px-4 py-2 rounded-full glass text-xs uppercase tracking-[0.18em] font-semibold text-white/70">
+                <span key={b} className="px-4 py-2 rounded-full glass text-xs uppercase tracking-[0.18em] font-semibold text-white/70 hover:text-neon hover:border-neon/40 transition-all duration-300 cursor-default">
                   {b}
                 </span>
               ))}
             </div>
+
+            {/* Quick highlight card */}
+            <motion.div
+              initial={{ opacity: 0, scale: 0.95 }}
+              whileInView={{ opacity: 1, scale: 1 }}
+              viewport={{ once: true }}
+              transition={{ delay: 0.3, duration: 0.5 }}
+              className="glass-strong rounded-2xl p-5 border border-neon/20 bg-neon/[0.02] flex items-center gap-4 mt-4"
+            >
+              <div className="w-11 h-11 rounded-xl bg-neon/10 border border-neon/30 flex items-center justify-center shrink-0">
+                <Zap size={20} className="text-neon" />
+              </div>
+              <div>
+                <div className="text-sm font-semibold text-white">Zero-lag execution model</div>
+                <div className="text-xs text-white/50 mt-0.5">Average campaign launch time: 72 hours from brief sign-off.</div>
+              </div>
+            </motion.div>
           </motion.div>
         </div>
 
@@ -54,6 +77,9 @@ export default function About() {
           {STATS.map((s, i) => (<Stat key={s.label} {...s} index={i} />))}
         </div>
       </div>
+
+      {/* Bottom section divider */}
+      <div className="section-divider mt-24 mx-auto max-w-5xl" />
     </section>
   );
 }

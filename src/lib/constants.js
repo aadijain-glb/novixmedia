@@ -22,10 +22,8 @@ export const SERVICES = [
   { title: "Brand Deals", desc: "End-to-end negotiation, contracting and execution for category-defining collaborations.", code: "02" },
   { title: "UGC Campaigns", desc: "Authentic creator-led content that ad platforms love and audiences trust.", code: "03" },
   { title: "Instagram Growth", desc: "Story-driven scaling playbooks that compound followers, saves and shares.", code: "04" },
-  // { title: "Performance Marketing", desc: "ROI-focused campaigns engineered to convert creator mindshare into customer acquisition.", code: "05" },
-  { title: "Talent Management", desc: "Full-service representation for creators ready to operate like a brand.", code: "06" },
-  // { title: "Social Media Strategy", desc: "Channel architecture, content systems and analytics — built to outlast trends.", code: "07" },
-  { title: "Paid Campaigns", desc: "Meta and Instagram ads engineered around your highest-performing creators.", code: "08" },
+  { title: "Talent Management", desc: "Full-service representation for creators ready to operate like a brand.", code: "05" },
+  { title: "Paid Campaigns", desc: "Meta and Instagram ads engineered around your highest-performing creators.", code: "06" },
 ];
 
 export const CREATORS = [
@@ -36,7 +34,115 @@ export const CREATORS = [
 ];
 
 export const BRANDS = [
-  "Fello", "Gullak", "Siply", "Junio", "My Mighty Theory", "Princess by Renee", "Be Clinical"
+  "Princess by RENÉE", "BE CLINICAL", "SkinInspired", "Mighty Theory", "Flo Mattress", "Gullak", "Siply", "Junio", "Fello", "CRED"
+];
+
+export const BRAND_COLLABORATIONS = [
+  {
+    id: "princess-by-renee",
+    name: "Princess by RENÉE",
+    category: "Beauty & Lifestyle",
+    logo: "/brands/princess_logo.png",
+    productImage: "/brands/princess_product.png",
+    description: "Viral creator campaign for RENÉE's exclusive kids & teen beauty range, featuring custom charm keychains and lip balms.",
+    highlights: [
+      "Top Beauty & Lifestyle Influencers",
+      "Unboxing & Charm Keychains Showcase",
+      "4.5x ROAS on Meta & Instagram Ads"
+    ],
+    metric: "+5.8M",
+    metricLabel: "Campaign Impressions",
+    secondaryMetric: "4.5x",
+    secondaryMetricLabel: "ROAS Lift",
+    badge: "Beauty & Kids Makeup",
+    tagline: "Kids & Teen Beauty Range",
+    accentColor: "from-pink-500/30 via-rose-500/15 to-transparent",
+    gradientText: "from-pink-400 to-rose-300",
+  },
+  {
+    id: "be-clinical",
+    name: "BE CLINICAL",
+    category: "Dermatology & Skincare",
+    logo: "/brands/beclinical_logo.png",
+    productImage: "/brands/beclinical_product.png",
+    description: "High-ROI creator campaign for BE CLINICAL's RootX Scalp Serum & Revive 10 Eye Cream, scaling clinical skincare adoption.",
+    highlights: [
+      "Dermatology & Skinfluencer Network",
+      "Clinical Routine & Solution Reels",
+      "3.9x ROAS on Meta & Instagram Ads"
+    ],
+    metric: "+3.6M",
+    metricLabel: "Targeted Audience Reach",
+    secondaryMetric: "3.9x",
+    secondaryMetricLabel: "ROAS Lift",
+    badge: "Clinical Skincare",
+    tagline: "Derma & Haircare Range",
+    accentColor: "from-cyan-500/30 via-slate-500/15 to-transparent",
+    gradientText: "from-cyan-300 to-sky-400",
+  },
+  {
+    id: "skin-inspired",
+    name: "SkinInspired",
+    category: "Derma Skincare & Serums",
+    logo: "/brands/skininspired_logo.png",
+    productImage: "/brands/skininspired_product.png",
+    description: "High-impact creator launch for SkinInspired's All Rounder 10% Niacinamide Refillable Serum & Derma Care range.",
+    highlights: [
+      "Dermatologist & Skinfluencer Network",
+      "Refillable Serum Routine & Educational Reels",
+      "4.1x ROAS on Meta & Instagram Ad Campaigns"
+    ],
+    metric: "+4.5M",
+    metricLabel: "Campaign Impressions",
+    secondaryMetric: "4.1x",
+    secondaryMetricLabel: "ROAS Lift",
+    badge: "Dermatologist Formulated",
+    tagline: "Derma Skincare Range",
+    accentColor: "from-teal-500/30 via-emerald-500/15 to-transparent",
+    gradientText: "from-teal-300 to-emerald-400",
+  },
+  {
+    id: "mighty-theory",
+    name: "Mighty Theory",
+    category: "Science-Backed Skincare",
+    logo: "/brands/mightytheory_logo.png",
+    productImage: "/brands/mightytheory_product.png",
+    description: "Data-driven creator campaign for Mighty Theory's Acne Control Face Wash, Skin Defense Mist & Relief Serum.",
+    highlights: [
+      "Dermatologist & Skincare Creator Reviews",
+      "Acne Routine & Solution Demos",
+      "4.2x ROAS on Meta & Instagram Ad Scaling"
+    ],
+    metric: "+4.8M",
+    metricLabel: "Campaign Impressions",
+    secondaryMetric: "4.2x",
+    secondaryMetricLabel: "ROAS Lift",
+    badge: "Acne & Skin Defense",
+    tagline: "Science-Backed Skincare",
+    accentColor: "from-blue-500/30 via-sky-500/15 to-transparent",
+    gradientText: "from-blue-300 to-cyan-400",
+  },
+  {
+    id: "flo-mattress",
+    name: "Flo Mattress",
+    category: "D2C & Home Comfort",
+    logo: "/brands/flomattress_logo.png",
+    productImage: "/brands/flomattress_product.png",
+    description: "High-converting creator campaign for Flo Mattress's Ergonomic & Orthopaedic sleep technology range.",
+    highlights: [
+      "Interior & Lifestyle Influencer Network",
+      "Unboxing & 100-Night Trial Experience Reels",
+      "3.7x ROAS on Meta & Instagram Paid Ads"
+    ],
+    metric: "+5.2M",
+    metricLabel: "Campaign Reach",
+    secondaryMetric: "3.7x",
+    secondaryMetricLabel: "ROAS Lift",
+    badge: "Ergonomic Sleep Tech",
+    tagline: "Orthopaedic Mattress Range",
+    accentColor: "from-blue-600/30 via-indigo-500/15 to-transparent",
+    gradientText: "from-blue-400 to-indigo-300",
+  },
 ];
 
 export const CASE_STUDIES = [

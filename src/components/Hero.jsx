@@ -109,6 +109,9 @@ export default function Hero() {
             Book an Appointment
             <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform" />
           </a>
+          <a href="#brands" className="btn-ghost group">
+            Explore Collaborations
+          </a>
         </motion.div>
 
         <motion.div

@@ -6,8 +6,9 @@ import { AGENCY } from "../lib/constants";
 const LINKS = [
   { label: "About", href: "#about" },
   { label: "Services", href: "#services" },
-  // { label: "Creators", href: "#creators" },
-  // { label: "Case Studies", href: "#case-studies" },
+  { label: "Brands", href: "#brands" },
+  { label: "Creators", href: "#creators" },
+  { label: "Testimonials", href: "#testimonials" },
   { label: "Contact", href: "#contact" },
 ];
 
