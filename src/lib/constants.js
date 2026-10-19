@@ -127,7 +127,7 @@ export const BRAND_COLLABORATIONS = [
     name: "BE CLINICAL",
     category: "Dermatology & Skincare",
     logo: "/brands/beclinical_logo.png",
-    productImage: "/brands/beclinical_product.png",
+    productImage: "/brands/beclinical_product.jpg",
     description: "High-ROI creator campaign for BE CLINICAL's RootX Scalp Serum & Revive 10 Eye Cream, scaling clinical skincare adoption.",
     highlights: [
       "Dermatology & Skinfluencer Network",
