@@ -104,13 +104,13 @@ export const BRAND_COLLABORATIONS = [
   {
     id: "skin-inspired",
     name: "SkinInspired",
-    category: "Derma Skincare & Serums",
+    category: "Derma Skincare & Hydration",
     logo: "/brands/skininspired_logo.png",
-    productImage: "/brands/skininspired_product.png",
-    description: "High-impact creator launch for SkinInspired's All Rounder 10% Niacinamide Refillable Serum & Derma Care range.",
+    productImage: "/brands/skininspired_product.jpg",
+    description: "High-impact creator launch for SkinInspired's Hydration Shots Hyaluronic Acid Serum, Ceramide Cream Moisturizer & Foaming Face Wash.",
     highlights: [
       "Dermatologist & Skinfluencer Network",
-      "Refillable Serum Routine & Educational Reels",
+      "Hydration Routine & Product Unboxing Reels",
       "4.1x ROAS on Meta & Instagram Ad Campaigns"
     ],
     metric: "+4.5M",
@@ -118,9 +118,9 @@ export const BRAND_COLLABORATIONS = [
     secondaryMetric: "4.1x",
     secondaryMetricLabel: "ROAS Lift",
     badge: "Dermatologist Formulated",
-    tagline: "Derma Skincare Range",
-    accentColor: "from-teal-500/30 via-emerald-500/15 to-transparent",
-    gradientText: "from-teal-300 to-emerald-400",
+    tagline: "Hydration Shots & Ceramide Range",
+    accentColor: "from-purple-500/30 via-pink-500/15 to-transparent",
+    gradientText: "from-purple-300 to-pink-300",
   },
   {
     id: "mighty-theory",
