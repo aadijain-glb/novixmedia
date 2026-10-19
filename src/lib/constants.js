@@ -106,7 +106,7 @@ export const BRAND_COLLABORATIONS = [
     name: "Princess by RENÉE",
     category: "Beauty & Lifestyle",
     logo: "/brands/princess_logo.png",
-    productImage: "/brands/princess_product.png",
+    productImage: "/brands/princess_product.jpg",
     description: "Viral creator campaign for RENÉE's exclusive kids & teen beauty range, featuring custom charm keychains and lip balms.",
     highlights: [
       "Top Beauty & Lifestyle Influencers",
