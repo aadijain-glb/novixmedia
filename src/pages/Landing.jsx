@@ -5,7 +5,6 @@ import About from "../components/About";
 import Services from "../components/Services";
 import Brands from "../components/Brands";
 import WhyChooseUs from "../components/WhyChooseUs";
-import Testimonials from "../components/Testimonials";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
 
@@ -19,7 +18,6 @@ export default function Landing() {
       <Services />
       <Brands />
       <WhyChooseUs />
-      <Testimonials />
       <Contact />
       <Footer />
     </main>
