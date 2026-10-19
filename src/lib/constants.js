@@ -11,9 +11,9 @@ export const AGENCY = {
 };
 
 export const STATS = [
-  { label: "Worked With Influencers", value: 200, suffix: "+" },
-  { label: "Campaign Executed", value: 100, suffix: "+" },
-  { label: "Brand Collaborations", value: 50, suffix: "+" },
+  { label: "Influencers Network", value: 10, suffix: "k+" },
+  { label: "Campaigns Executed", value: 250, suffix: "+" },
+  { label: "Brand Collaborations", value: 70, suffix: "+" },
   { label: "Client Retention", value: 85, suffix: "%" },
 ];
 
@@ -34,7 +34,7 @@ export const CREATORS = [
 ];
 
 export const BRANDS = [
-  "Anveshan", "Princess by RENÉE", "BE CLINICAL", "SkinInspired", "Mighty Theory", "Flo Mattress", "Gullak", "Siply", "Junio", "Fello", "CRED"
+  "Anveshan", "RENÉE Cosmetics", "Princess by RENÉE", "BE CLINICAL", "SkinInspired", "Mighty Theory", "Gullak", "Siply", "Junio", "Fello", "CRED"
 ];
 
 export const BRAND_COLLABORATIONS = [
@@ -48,16 +48,37 @@ export const BRAND_COLLABORATIONS = [
     highlights: [
       "Handled 150 Creators Campaign in a Single Month",
       "20M+ Organic & Paid Views Generated",
-      "Exceptional Efficiency at Less than ₹0.15 CPV"
+      "Exceptional Efficiency at ₹0.05 CPV"
     ],
     metric: "20M+",
     metricLabel: "Campaign Views",
-    secondaryMetric: "< ₹0.15",
+    secondaryMetric: "₹0.05",
     secondaryMetricLabel: "Cost Per View (CPV)",
     badge: "150 Creators / Month",
     tagline: "Wood Pressed Oils & A2 Gir Cow Ghee",
     accentColor: "from-amber-500/30 via-emerald-600/15 to-transparent",
     gradientText: "from-amber-400 to-emerald-300",
+  },
+  {
+    id: "renee-cosmetics",
+    name: "RENÉE Cosmetics",
+    category: "Beauty & Cosmetics",
+    logo: "/brands/renee_logo.svg",
+    productImage: "/brands/renee_product.jpg",
+    description: "Viral creator campaigns for RENÉE's premium Pink Therapy range, featuring PDRN Peptide Serums, Collagen Night Wrapping Mask, Sunscreen and Lip Balm.",
+    highlights: [
+      "2M+ High-Converting Campaign Views",
+      "Top Beauty & Lifestyle Influencers Network",
+      "PDRN & Collagen Skincare Routine Video Showcases"
+    ],
+    metric: "2M+",
+    metricLabel: "Campaign Views",
+    secondaryMetric: "4.8x",
+    secondaryMetricLabel: "ROAS Lift",
+    badge: "2M+ Views",
+    tagline: "Pink Therapy & PDRN Beauty Range",
+    accentColor: "from-pink-500/30 via-rose-500/15 to-transparent",
+    gradientText: "from-pink-400 to-rose-300",
   },
   {
     id: "princess-by-renee",
@@ -142,27 +163,6 @@ export const BRAND_COLLABORATIONS = [
     tagline: "Science-Backed Skincare",
     accentColor: "from-blue-500/30 via-sky-500/15 to-transparent",
     gradientText: "from-blue-300 to-cyan-400",
-  },
-  {
-    id: "flo-mattress",
-    name: "Flo Mattress",
-    category: "D2C & Home Comfort",
-    logo: "/brands/flomattress_logo.png",
-    productImage: "/brands/flomattress_product.png",
-    description: "High-converting creator campaign for Flo Mattress's Ergonomic & Orthopaedic sleep technology range.",
-    highlights: [
-      "Interior & Lifestyle Influencer Network",
-      "Unboxing & 100-Night Trial Experience Reels",
-      "3.7x ROAS on Meta & Instagram Paid Ads"
-    ],
-    metric: "+5.2M",
-    metricLabel: "Campaign Reach",
-    secondaryMetric: "3.7x",
-    secondaryMetricLabel: "ROAS Lift",
-    badge: "Ergonomic Sleep Tech",
-    tagline: "Orthopaedic Mattress Range",
-    accentColor: "from-blue-600/30 via-indigo-500/15 to-transparent",
-    gradientText: "from-blue-400 to-indigo-300",
   },
 ];
 

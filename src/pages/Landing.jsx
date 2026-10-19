@@ -15,8 +15,8 @@ export default function Landing() {
       <Navbar />
       <Hero />
       <About />
-      <Services />
       <Brands />
+      <Services />
       <WhyChooseUs />
       <Contact />
       <Footer />

@@ -31,8 +31,8 @@ export default function Footer() {
 
           <FooterCol title="Agency" links={[
             { label: "About", href: "#about" },
-            { label: "Services", href: "#services" },
             { label: "Brand Collaborations", href: "#brands" },
+            { label: "Services", href: "#services" },
             { label: "Why Novix Media", href: "#why" },
           ]} />
           <FooterCol title="Connect" links={[

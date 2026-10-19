@@ -62,27 +62,27 @@ export default function Hero() {
         >
           <span className="w-1.5 h-1.5 rounded-full bg-neon animate-pulse" />
           <span className="text-xs uppercase tracking-[0.25em] text-white/80 font-semibold">
-            Trusted by 50+ Brands · 100+ Reach
+            70+ Brands · 10k+ Influencers · 250+ Campaigns
           </span>
         </motion.div>
 
         <h1 data-testid="hero-headline"
           className="font-heading font-black tracking-tighter text-4xl sm:text-6xl md:text-7xl lg:text-[6.2rem] leading-[0.95] flex flex-col items-center">
           <div className="flex flex-wrap justify-center">
-            {["We", "Turn", "Creators"].map((w, i) => (
+            {["We", "Make"].map((w, i) => (
               <span key={i} className="inline-block overflow-hidden align-bottom mr-3 md:mr-6">
                 <motion.span custom={i} variants={word} initial="hidden" animate="show"
-                  className={`inline-block ${w === "Creators" ? "text-gradient neon-text" : "text-white"}`}>
+                  className="inline-block text-white">
                   {w}
                 </motion.span>
               </span>
             ))}
           </div>
           <div className="flex flex-wrap justify-center mt-1 sm:mt-2">
-            {["Into", "Brands"].map((w, i) => (
+            {["Influence", "Work."].map((w, i) => (
               <span key={i} className="inline-block overflow-hidden align-bottom mr-3 md:mr-6">
-                <motion.span custom={i + 3} variants={word} initial="hidden" animate="show"
-                  className={`inline-block ${w === "Brands" ? "text-gradient neon-text" : "text-white"}`}>
+                <motion.span custom={i + 2} variants={word} initial="hidden" animate="show"
+                  className="inline-block text-gradient neon-text">
                   {w}
                 </motion.span>
               </span>
@@ -93,11 +93,10 @@ export default function Hero() {
         <motion.p
           initial={{ opacity: 0, y: 12 }} animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.9, duration: 0.7 }}
-          className="mt-8 max-w-2xl mx-auto text-base md:text-lg text-white/65 leading-relaxed"
+          className="mt-8 max-w-2xl mx-auto text-base md:text-lg text-white/70 leading-relaxed"
           data-testid="hero-subheadline"
         >
-          We scale ambitious brands through hand-picked creator partnerships, paid amplification
-          and a content engine designed to compound — across Instagram and Youtube.
+          We connect brands with the right creators to build meaningful conversations, powerful campaigns, and measurable growth.
         </motion.p>
 
         <motion.div
