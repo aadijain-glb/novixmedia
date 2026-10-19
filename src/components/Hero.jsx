@@ -79,7 +79,7 @@ export default function Hero() {
             ))}
           </div>
           <div className="flex flex-wrap justify-center mt-1 sm:mt-2">
-            {["Influence", "Work."].map((w, i) => (
+            {["Influence", "Work"].map((w, i) => (
               <span key={i} className="inline-block overflow-hidden align-bottom mr-3 md:mr-6">
                 <motion.span custom={i + 2} variants={word} initial="hidden" animate="show"
                   className="inline-block text-gradient neon-text">
