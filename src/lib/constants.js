@@ -5,7 +5,7 @@ export const AGENCY = {
   address: "Delhi NCR",
   location: "Delhi NCR",
   socials: {
-    instagram: "https://www.instagram.com/novixmedia_/",
+    instagram: "https://www.instagram.com/novixmedia.in/",
     linkedin: "https://www.linkedin.com/in/novix-media-9785b5411/",
   },
 };
@@ -34,10 +34,31 @@ export const CREATORS = [
 ];
 
 export const BRANDS = [
-  "Princess by RENÉE", "BE CLINICAL", "SkinInspired", "Mighty Theory", "Flo Mattress", "Gullak", "Siply", "Junio", "Fello", "CRED"
+  "Anveshan", "Princess by RENÉE", "BE CLINICAL", "SkinInspired", "Mighty Theory", "Flo Mattress", "Gullak", "Siply", "Junio", "Fello", "CRED"
 ];
 
 export const BRAND_COLLABORATIONS = [
+  {
+    id: "anveshan",
+    name: "Anveshan",
+    category: "Natural Foods & Superfoods",
+    logo: "/brands/anveshan_logo.png",
+    productImage: "/brands/anveshan_product.jpg",
+    description: "Massive scale influencer marketing campaign for Anveshan's Wood Pressed Oils, A2 Vedic Gir Cow Ghee, Stone-Ground Khapli Atta & Raw Honey.",
+    highlights: [
+      "Handled 150 Creators Campaign in a Single Month",
+      "20M+ Organic & Paid Views Generated",
+      "Exceptional Efficiency at Less than ₹0.15 CPV"
+    ],
+    metric: "20M+",
+    metricLabel: "Campaign Views",
+    secondaryMetric: "< ₹0.15",
+    secondaryMetricLabel: "Cost Per View (CPV)",
+    badge: "150 Creators / Month",
+    tagline: "Wood Pressed Oils & A2 Gir Cow Ghee",
+    accentColor: "from-amber-500/30 via-emerald-600/15 to-transparent",
+    gradientText: "from-amber-400 to-emerald-300",
+  },
   {
     id: "princess-by-renee",
     name: "Princess by RENÉE",

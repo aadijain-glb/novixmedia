@@ -156,7 +156,7 @@ export default function Contact() {
                       rel="noopener noreferrer"
                       className="text-sm font-semibold hover:text-neon transition-colors"
                     >
-                      Visit Instagram
+                      @novixmedia.in
                     </a>
                   </div>
                 </div>
