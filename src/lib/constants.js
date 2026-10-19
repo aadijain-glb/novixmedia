@@ -34,10 +34,31 @@ export const CREATORS = [
 ];
 
 export const BRANDS = [
-  "Anveshan", "RENÉE Cosmetics", "Princess by RENÉE", "BE CLINICAL", "SkinInspired", "Mighty Theory", "Gullak", "Siply", "Junio", "Fello", "CRED"
+  "Huggies India", "Anveshan", "RENÉE Cosmetics", "Princess by RENÉE", "BE CLINICAL", "SkinInspired", "Mighty Theory", "Gullak", "Siply", "Junio", "Fello", "CRED"
 ];
 
 export const BRAND_COLLABORATIONS = [
+  {
+    id: "huggies-india",
+    name: "Huggies India",
+    category: "Baby Care & Diaper Pants",
+    logo: "/brands/huggies_logo.png",
+    productImage: "/brands/huggies_product.png",
+    description: "High-reach creator awareness and engagement campaign for Huggies Natural Soft Premium Pants featuring the Cloud Touch Belt.",
+    highlights: [
+      "5M+ Campaign Video Views",
+      "Top Parenting & Mom Influencer Network",
+      "Authentic Nursery & Baby Comfort Experience Reels"
+    ],
+    metric: "5M+",
+    metricLabel: "Campaign Views",
+    secondaryMetric: "94%",
+    secondaryMetricLabel: "Positive Sentiment",
+    badge: "5M+ Views",
+    tagline: "Natural Soft Premium Diaper Pants",
+    accentColor: "from-red-500/30 via-emerald-500/15 to-transparent",
+    gradientText: "from-red-400 to-emerald-300",
+  },
   {
     id: "anveshan",
     name: "Anveshan",
